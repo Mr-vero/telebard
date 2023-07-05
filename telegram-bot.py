@@ -1,5 +1,5 @@
-!pip install bardapi
-!pip install python-telegram-bot==12.8
+# !pip install bardapi 
+# !pip install python-telegram-bot==12.8
 import bardapi
 import json
 from telegram import Update
@@ -9,8 +9,8 @@ import time
 
 
 # Set your __Secure-1PSID value to key
-token = '6262941856:AAFaZAHRvQMST21SrBCcdmEZ9GkjIf_nAOY'
-token_bard = 'YQjiJxS0JS8Wl-R1RDhmOhyItTKCevEdNSr5EWRH4Gh6RL_rBUYzmD9-Kq9ps2zqXpZ9bA.'
+token = 'YOUR_TELEGRAM_TOKEN'
+token_bard = 'YOUR_BARD_TOKEN'
 
 from telegram import Update
 
